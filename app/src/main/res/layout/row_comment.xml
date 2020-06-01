@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/CommitProf"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_view_circle" />
+
+    <TextView
+        android:id="@+id/ComNam"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="TextView"
+        android:textColor="@color/LBlue" />
+
+    <TextView
+        android:id="@+id/ComDat"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:gravity="end"
+        android:text="TextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:textSize="9dp"
+        android:textColor="@color/Green" />
+
+    <TextView
+        android:id="@+id/CommitDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        android:text="Description is in Hereç"
+        android:textColor="@color/Green"
+        android:textSize="12dp" />
+
+
+</RelativeLayout>

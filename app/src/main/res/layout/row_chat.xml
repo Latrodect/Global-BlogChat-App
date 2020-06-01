@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ScreenDark" />
+
+    <TextView
+        android:id="@+id/chat_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        android:text="Description is in Hereç"
+        android:textColor="@color/Green"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/chat_Date"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:gravity="end"
+        android:text="TextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:textSize="9dp"
+        android:textColor="@color/Green" />
+
+    <TextView
+        android:id="@+id/chat_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="TextView"
+        android:textColor="@color/LBlue" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chatİmg"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_view_circle" />
+
+
+
+</RelativeLayout>

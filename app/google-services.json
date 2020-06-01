@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "491768946240",
+    "firebase_url": "https://mrblogpro-3d4d9.firebaseio.com",
+    "project_id": "mrblogpro-3d4d9",
+    "storage_bucket": "mrblogpro-3d4d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491768946240:android:a8acbfa8f1c668a2a1c9a5",
+        "android_client_info": {
+          "package_name": "com.blogchatapp.blogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491768946240-jsjfqi3f858jj8hihrek1on352k1tdmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA28FPtYoi-7aou5tFV_RZo4yf2NAM0-Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491768946240-jsjfqi3f858jj8hihrek1on352k1tdmp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
